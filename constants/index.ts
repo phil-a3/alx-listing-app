@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
   {
     name: "Villa Ocean Breeze",
@@ -361,13 +360,3 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
     discount: ""
   }
 ];
-=======
-// ---------- UI TEXT ----------
-export const UI_TEXT = {
-    submit: "Submit",
-    save: "Save",
-    cancel: "Cancel",
-    loading: "Loading...",
-    error: "Something went wrong",
-} as const;
->>>>>>> 340270f32cb35ab19303b1b7167d79f8b566a259

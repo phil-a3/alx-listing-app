@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { ReactNode } from 'react'
 interface ButtonProps {
     width?: string;
@@ -24,19 +23,6 @@ function Button({
         >
             {children}
         </button>
-=======
-"use client";
-import { ButtonProps } from "@/interfaces/index"
-
-const Button = ({
-    name,
-    color,
-    type = "button",
-    onClick,
-}: ButtonProps) => {
-    return (
-        <button type={type} className="w-fit p-4 rounded-{50%} bg-${color}-500" onClick={onClick}>{name}</button>
->>>>>>> 340270f32cb35ab19303b1b7167d79f8b566a259
     )
 }
 
